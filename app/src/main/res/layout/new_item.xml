@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="horizontal"
+      android:weightSum="3"
+      >
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:padding="10dp"
+          android:orientation="vertical"
+          android:layout_weight="1"
+          >
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:text="Thumbnail"
+              android:gravity="center"
+              android:id="@+id/Image"
+              />
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ItemName"
+            android:gravity="center"
+            android:id="@+id/ItemName"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/ItemPrice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ItemPrice"
+            android:gravity="center"
+            />
+    </LinearLayout>
+ </LinearLayout>
+
+</android.support.v7.widget.CardView>
